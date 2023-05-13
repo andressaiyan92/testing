@@ -1,1 +1,7 @@
-Hola mundo
+sudo apt install git
+git config --global user.name "andres"
+git config --global user.email "andres.sevillano.net@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "andres.sevillano.net@gmail.com"
+Colocar la llave publica en GITHUB RUTA: /root/.ssh/
+
+
